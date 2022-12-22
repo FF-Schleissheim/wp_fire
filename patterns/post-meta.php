@@ -25,7 +25,7 @@
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'Posted', 'Verb to explain the publication status of a post', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'Geteilt', 'Verb zum beschreiben des Veröffentlichungstatuses', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -33,7 +33,7 @@
 
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'in', 'Preposition to show the relationship between the post and its categories', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'in', 'Präposition um das verhältnis zwischen Kategorien und Beintrag zu zeigen', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'by', 'Preposition to show the relationship between the post and its author', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'von', 'Präposition um das verhältnis zwischen Autor und Beintrag zu zeigen', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -61,7 +61,7 @@
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'Tags:', 'Label for a list of post tags', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'Stichworte:', 'Beschriftung für eine Liste von Beitragsstichworte', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
