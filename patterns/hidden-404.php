@@ -19,7 +19,7 @@
 	<p><?php echo esc_html_x( 'Diese Seite konnte nicht gefunden werden.', 'Nachricht die mitteilt, dass keine Seite gefunden wurde', 'wp-fire' ); ?></p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'label', 'wp-fire' ); ?>","placeholder":"<?php echo esc_attr_x( 'Suche...', 'Platzhalter für das Suchfeld', 'wp-fire' ); ?>","showLabel":false,"width":100,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'wp-fire' ); ?>","buttonUseIcon":true,"align":"center"} /-->
+	<!-- wp:search {"label":"<?php echo esc_html_x( 'Suche', 'Beschriftung', 'wp-fire' ); ?>","placeholder":"<?php echo esc_attr_x( 'Suche...', 'Platzhalter für das Suchfeld', 'wp-fire' ); ?>","showLabel":false,"width":100,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'wp-fire' ); ?>","buttonUseIcon":true,"align":"center"} /-->
 </div>
 <!-- /wp:group -->
 

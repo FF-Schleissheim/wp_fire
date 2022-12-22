@@ -11,4 +11,4 @@
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"<?php echo esc_html_x( 'Suche', 'Stichwort', 'wp-fire' ); ?>","placeholder":"<?php echo esc_attr_x( 'Suche...', 'Platzhalter für das Suchfeld', 'wp-fire' ); ?>","showLabel":false,"buttonText":"<?php esc_attr_e( 'Search', 'wp-fire' ); ?>","buttonUseIcon":true} /-->
+<!-- wp:search {"label":"<?php echo esc_html_x( 'Suche', 'Beschriftung', 'wp-fire' ); ?>","placeholder":"<?php echo esc_attr_x( 'Suche...', 'Platzhalter für das Suchfeld', 'wp-fire' ); ?>","showLabel":false,"buttonText":"<?php esc_attr_e( 'Search', 'wp-fire' ); ?>","buttonUseIcon":true} /-->
