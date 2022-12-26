@@ -33,7 +33,7 @@
 		},
 		"layout": {
 			"contentSize": "min(640px, 90vw)",
-			"wideSize": "90vw"
+			"wideSize": "80vw"
 		},
 		"spacing": {
 			"spacingScale": {

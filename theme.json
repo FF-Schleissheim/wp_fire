@@ -23,6 +23,13 @@
 				"page"
 			],
 			"title": "404"
+		},
+		{
+			"name": "page-wide",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page-Wide"
 		}
 	],
 	"settings": {
@@ -58,7 +65,7 @@
 		},
 		"layout": {
 			"contentSize": "650px",
-			"wideSize": "1200px"
+			"wideSize": "1000px"
 		},
 		"spacing": {
 			"spacingScale": {
@@ -539,7 +546,11 @@
 			},
 			"core/quote": {
 				"border": {
-					"width": "1px"
+					"left": {
+						"style": "solid",
+						"width": "1px"
+					},
+					"color": "var(--wp--preset--color--contrast) !important"
 				},
 				"elements": {
 					"cite": {
