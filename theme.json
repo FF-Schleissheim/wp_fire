@@ -11,11 +11,11 @@
 			"title": "Blank"
 		},
 		{
-			"name": "blog-alternative",
+			"name": "blog",
 			"postTypes": [
 				"page"
 			],
-			"title": "Blog (Alternative)"
+			"title": "Blog"
 		},
 		{
 			"name": "404",

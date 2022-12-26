@@ -33,7 +33,7 @@
 
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'in', 'Präposition um das verhältnis zwischen Kategorien und Beintrag zu zeigen', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'in', 'Präposition um das Verhältnis zwischen Kategorien und Beintrag zu zeigen', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -45,27 +45,11 @@
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo esc_html_x( 'von', 'Präposition um das verhältnis zwischen Autor und Beintrag zu zeigen', 'wp-fire' ); ?>
+					<?php echo esc_html_x( 'von', 'Präposition um das Verhältnis zwischen Autor und Beintrag zu zeigen', 'wp-fire' ); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:post-author {"showAvatar":false} /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
-		<div class="wp-block-column">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"0.5ch"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group">
-				<!-- wp:paragraph -->
-				<p>
-					<?php echo esc_html_x( 'Stichworte:', 'Beschriftung für eine Liste von Beitragsstichworte', 'wp-fire' ); ?>
-				</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:post-terms {"term":"post_tag"} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>
