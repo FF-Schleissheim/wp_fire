@@ -65,7 +65,7 @@
 		},
 		"layout": {
 			"contentSize": "650px",
-			"wideSize": "1000px"
+			"wideSize": "80vw"
 		},
 		"spacing": {
 			"spacingScale": {
@@ -376,6 +376,7 @@
 				"typography": {
 					"fontWeight": "400"
 				},
+				
 				"elements": {
 					"link": {
 						":hover": {
