@@ -1,8 +1,11 @@
 # wp-fire
-Contributors: h0p3zZ
-Requires at least: 6.1
-Tested up to: 6.1
-Requires PHP: 5.6
+## wp-fire is a Wordpress theme
+Contributors: [h0p3zZ](https://github.com/h0p3zZ)\
+Requires at least: 6.1\
+Tested up to: 6.1\
+Requires PHP: 5.6\
+License: GPLv3 or later\
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 ## Description
 
