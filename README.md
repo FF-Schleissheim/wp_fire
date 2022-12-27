@@ -1,5 +1,5 @@
 # wp-fire
-## wp-fire is a Wordpress theme
+## wp-fire is a pre-customized Wordpress theme
 Contributors: [h0p3zZ](https://github.com/h0p3zZ)\
 Requires at least: 6.1\
 Tested up to: 6.1\

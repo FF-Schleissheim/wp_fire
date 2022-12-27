@@ -15,6 +15,11 @@
 					"slug": "contrast"
 				},
 				{
+					"color": "#ff0000",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
 					"color": "#e3cbc0",
 					"name": "Primary",
 					"slug": "primary"

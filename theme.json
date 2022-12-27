@@ -40,6 +40,11 @@
 					"slug": "contrast"
 				},
 				{
+					"color": "#ff0000",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
 					"color": "#9DFF20",
 					"name": "Primary",
 					"slug": "primary"
