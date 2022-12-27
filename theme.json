@@ -23,13 +23,6 @@
 				"page"
 			],
 			"title": "404"
-		},
-		{
-			"name": "page-wide",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page-Wide"
 		}
 	],
 	"settings": {
