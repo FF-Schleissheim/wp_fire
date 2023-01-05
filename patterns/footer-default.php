@@ -14,14 +14,19 @@
 		<div class="wp-block-group">
 			<!-- wp:site-title {"level":6} /-->
 			<!-- wp:paragraph -->
-			<!-- {CHANGE:To your phone number with correct href} -->
-			<p><a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a></p>
+			<p>
+				Bei kleineren Anliegen oder Fragen<br>
+				können Sie sich auch direkt beim diensthabenden<br>
+				Offizier (OvD) melden unter: <br>
+				<!-- {CHANGE:To your phone number with correct href} -->
+				<a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a>
+			</p>
 			<!-- /wp:paragraph -->
+			
 			<!-- wp:social-links -->
 			<ul class="wp-block-social-links">
-				<!-- {CHANGE:facebokk and instagram link} -->
-				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-				<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"https://www.facebook.com/{CHANGE:to correct link}","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"https://www.instagram.com/{CHANGE:to correct link}","service":"instagram"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
@@ -36,10 +41,10 @@
 			<p>
 				<!-- {CHANGE:google maps link and address} -->
 				<a href="https://goo.gl/maps/pzY4cafv16or5Yv29" style="text-decoration: none;" target="_blank" rel="noreferrer noopener">
-				Freiwillige Feuerwehr Schleißheim<br>
-				Dorfstraße 14<br>
-				4600 Schleißheim<br>
-				Oberösterreich
+					Freiwillige Feuerwehr Schleißheim<br>
+					Dorfstraße 14<br>
+					4600 Schleißheim<br>
+					Oberösterreich
 				</a>
 			</p>
 			<!-- /wp:paragraph -->
@@ -51,7 +56,7 @@
 			<h6>Rechtliches</h6>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p><a href="?page_id=">Impressum</a></p>
+			<p><a href="/impressum">Impressum</a></p>
 			<!-- TODO: get Impressum page id and put it into the href -->
 			<!-- /wp:paragraph -->
 		</div>
