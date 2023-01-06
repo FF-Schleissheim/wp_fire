@@ -37,7 +37,7 @@
 			]
 		},
 		"layout": {
-			"contentSize": "min(640px, 90vw)",
+			"contentSize": "80vw",
 			"wideSize": "80vw"
 		},
 		"spacing": {
