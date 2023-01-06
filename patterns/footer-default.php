@@ -16,8 +16,8 @@
 			<!-- wp:paragraph -->
 			<p>
 				Bei kleineren Anliegen oder Fragen<br>
-				können Sie sich auch direkt beim diensthabenden<br>
-				Offizier (OvD) melden unter: <br>
+				können Sie sich auch direkt beim<br>
+				diensthabenden Offizier (OvD) melden: <br>
 				<!-- {CHANGE:To your phone number with correct href} -->
 				<a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a>
 			</p>
