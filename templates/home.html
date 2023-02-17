@@ -5,7 +5,7 @@
 	style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70)">
 	<!-- wp:image {"align":"wide","id":22,"sizeSlug":"full","style":{"color":{}}} -->
 	<figure class="wp-block-image alignwide size-full">
-		<img src="{CHANGE:src to banner img/or remove}" class="wp-image-22" />
+		<img src="{CHANGE:src to banner img/or remove}" alt="Banner der Website" class="wp-image-22" />
 	</figure>
 	<!-- /wp:image -->
 
@@ -13,7 +13,7 @@
 	<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
 	<!-- /wp:separator -->
 
-	<!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":4,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
+	<!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
 	<div class="wp-block-query">
 		<!-- wp:post-template -->
 		<!-- wp:columns {"align":"wide"} -->
@@ -23,125 +23,123 @@
 				<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"33vh"} /-->
 			</div>
 			<!-- /wp:column -->
-			
+
 			<!-- wp:column {"width":"70%"} -->
 			<div class="wp-block-column" style="flex-basis:70%">
 				<!-- wp:post-title {"isLink":true} /-->
-			
+
 				<!-- wp:post-excerpt /-->
 
 				<!-- wp:post-date {"isLink":true} /-->
 			</div>
 			<!-- /wp:column -->
 		</div>
+		<!-- /wp:columns -->
 		<!-- /wp:post-template -->
-	</div>
-	<!-- /wp:query -->
 
-	<!-- wp:separator {"className":"is-style-default"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
-	<!-- /wp:separator -->
+		<!-- wp:separator {"className":"is-style-default"} -->
+		<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
+		<!-- /wp:separator -->
 
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"25%","layout":{"type":"flex","orientation":"vertical"}} -->
-		<div class="wp-block-column" style="flex-basis:25%">
-			<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-			<div class="wp-block-group alignwide">
-				<!-- wp:heading {"level":5} -->
-				<h5>Laufende Einsätze in OÖ</h5>
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide">
+			<!-- wp:column {"width":"25%","layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-column" style="flex-basis:25%">
+				<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+				<div class="wp-block-group alignwide">
+					<!-- wp:heading {"level":5} -->
+					<h5>Laufende Einsätze in OÖ</h5>
+					<!-- /wp:heading -->
+				</div>
+				<!-- /wp:group -->
+
+				<!-- wp:image {"sizeSlug":"large","linkDestination":"custom"} -->
+				<figure class="wp-block-image size-large"><a href="http://intranet.ooelfv.at/" target="_blank"
+						rel="noreferrer noopener"><img src="http://intranet.ooelfv.at/webext2/img/karte_laufend.jpg"
+							alt="Aktuelle Einsätze in Oberösterreich angezeigt auf einer Karte." /></a></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":"40%"} -->
+			<div class="wp-block-column" style="flex-basis:40%">
+				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":5} -->
+					<h5>Kontakt</h5>
+					<!-- /wp:heading -->
+
+					<!-- wp:paragraph -->
+					<!-- {CHANGE:To your phone number with correct href} -->
+					<p>
+						Bei kleineren Anliegen oder Fragen können Sie sich auch direkt beim diensthabenden Offizier
+						(OvD) melden unter:<br>
+						OvD Handy: <a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a><br>
+						Erreichbar auch am Wochenende!
+					</p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:paragraph -->
+					<p>
+						Bei Notfällen oder sonstigen Einsätzen immer sofort den
+						<strong>&nbsp;Feuerwehrnotruf 122</strong>&nbsp;wählen!
+					</p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":"35%"} -->
+			<div class="wp-block-column" style="flex-basis:35%">
+				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":5} -->
+					<h5>Termine</h5>
+					<!-- /wp:heading -->
+
+					<!-- wp:paragraph -->
+					<p>24. Dezember 2022: Weihnachten :)</p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:paragraph -->
+					<p>5. Dezmber 2023: Perchtenkehraus und Spass für die Feuerwehr?</p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+		</div>
+		<!-- /wp:columns -->
+
+		<!-- wp:separator {"className":"is-style-default"} -->
+		<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
+		<!-- /wp:separator -->
+
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide">
+			<!-- wp:column -->
+			<div class="wp-block-column">
+				<!-- wp:heading {"align":"wide"} -->
+				<h2 class="alignwide">
+					<!-- {CHANGE:to actual href to the blogs page (can be page with blog-template from theme)} -->
+					<a href="/posts">Aktuelles</a>
+				</h2>
 				<!-- /wp:heading -->
 			</div>
-			<!-- /wp:group -->
+			<!-- /wp:column -->
 
-			<!-- wp:image {"sizeSlug":"large","linkDestination":"custom"} -->
-			<figure class="wp-block-image size-large">
-				<a href="http://intranet.ooelfv.at/" target="_blank"
-				rel="noreferrer noopener"><img src="http://intranet.ooelfv.at/webext2/img/karte_laufend.jpg"
-				alt="Aktuelle Einsätze in Oberösterreich angezeigt auf einer Karte."/></a>
-			</figure>
-			<!-- /wp:image -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"40%"} -->
-		<div class="wp-block-column" style="flex-basis:40%">
-			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group">
-				<!-- wp:heading {"level":5} -->
-				<h5>Kontakt</h5>
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph -->
-				<!-- {CHANGE:To your phone number with correct href} -->
-				<p>
-					Bei kleineren Anliegen oder Fragen können Sie sich auch direkt beim diensthabenden Offizier (OvD) melden unter:<br>
-					OvD Handy: <a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a><br>
-					Erreichbar auch am Wochenende!
-				</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph -->
-				<p>
-					Bei Notfällen oder sonstigen Einsätzen immer sofort den
-					<strong>&nbsp;Feuerwehrnotruf 122</strong>&nbsp;wählen!
-				</p>
-				<!-- /wp:paragraph -->
+			<!-- wp:column -->
+			<div class="wp-block-column">
+				<!-- wp:search {"label":"","showLabel":false,"placeholder":"Suchparameter eingeben...","buttonText":"Suchen","fontSize":"small"} /-->
 			</div>
-			<!-- /wp:group -->
+			<!-- /wp:column -->
 		</div>
-		<!-- /wp:column -->
+		<!-- /wp:columns -->
 
-		<!-- wp:column {"width":"35%"} -->
-		<div class="wp-block-column" style="flex-basis:35%">
-			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group">
-				<!-- wp:heading {"level":5} -->
-				<h5>Termine</h5>
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph -->
-				<p>24. Dezember 2022: Weihnachten :)</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph -->
-				<p>5. Dezmber 2023: Perchtenkehraus und Spass für die Feuerwehr?</p>
-				<!-- /wp:paragraph -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-
-	<!-- wp:separator {"className":"is-style-default"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
-	<!-- /wp:separator -->
-
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-		<!-- wp:column -->
-		<div class="wp-block-column">
-			<!-- wp:heading {"align":"wide"} -->
-			<h2 class="alignwide">
-				<!-- {CHANGE:to actual href to the blogs page (can be page with blog-template from theme)} -->
-				<a href="/posts">Aktuelles</a>
-			</h2>
-			<!-- /wp:heading -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column -->
-		<div class="wp-block-column">
-			<!-- wp:search {"label":"","showLabel":false,"placeholder":"Suchparameter eingeben...","buttonText":"Suchen","fontSize":"small"} /-->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-
-	<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":1,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"type":"constrained"}} -->
-	<div class="wp-block-query alignwide">
-		<!-- wp:post-template {"align":"wide"} -->
+		<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":1,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"type":"constrained"}} -->
+		<div class="wp-block-query alignwide">
+			<!-- wp:post-template {"align":"wide"} -->
 			<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"max(15vw, 30vh)","align":"wide"} /-->
 
 			<!-- wp:post-title {"isLink":true} /-->
@@ -149,27 +147,30 @@
 			<!-- wp:post-excerpt /-->
 
 			<!-- wp:post-date {"isLink":true} /-->
-		<!-- /wp:post-template -->
+			<!-- /wp:post-template -->
 
-		<!-- wp:columns {"align":"wide"} -->
-		<div class="wp-block-columns alignwide"><!-- wp:column {"width":"100%"} -->
-			<div class="wp-block-column" style="flex-basis:100%">
-				<!-- wp:paragraph {"align":"right","fontSize":"small"} -->
-				<p class="has-text-align-right has-small-font-size">
-					<a href="/posts" data-type="URL" data-id="/posts">Alle Beiträge -&gt;</a>
-				</p>
-				<!-- /wp:paragraph -->
+			<!-- wp:columns {"align":"wide"} -->
+			<div class="wp-block-columns alignwide">
+				<!-- wp:column {"width":"100%"} -->
+				<div class="wp-block-column" style="flex-basis:100%">
+					<!-- wp:paragraph {"align":"right","fontSize":"small"} -->
+					<p class="has-text-align-right has-small-font-size">
+						<a href="/posts" data-type="URL" data-id="/posts">Alle Beiträge -&gt;</a>
+					</p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:column -->
 			</div>
-			<!-- /wp:column -->
+			<!-- /wp:columns -->
 		</div>
-		<!-- /wp:columns -->
+		<!-- /wp:query -->
 	</div>
 	<!-- /wp:query -->
+
+	<!-- wp:spacer -->
+	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+	<!-- wp:template-part {"slug":"footer","theme":"wp_fire","tagName":"footer"} /-->
 </main>
 <!-- /wp:group -->
-
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:template-part {"slug":"footer","theme":"wp_fire","tagName":"footer"} /-->
