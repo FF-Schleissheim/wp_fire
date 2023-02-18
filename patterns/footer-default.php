@@ -56,10 +56,10 @@
 			<h6>Rechtliches</h6>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p><a href="/impressum">Impressum</a></p>
-			<!-- /wp:paragraph -->
-			<!-- wp:paragraph -->
-			<p><a href="/datenschutz">Datenschutz</a></p>
+			<p>
+				<a href="/impressum">Impressum</a> <br>
+				<a href="/datenschutz">Datenschutz</a>
+			</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -71,7 +71,7 @@
 	<!-- wp:paragraph {"style":{"color":{"text":"#686872"}},"align":"right","fontSize":"small","align":"wide"} -->
 	<p class="has-text-align-right has-small-font-size alignwide" style="color:#686872">
 		<?php
-			print "Copyright © 2022 - "; echo date("Y"); print "FF Schleißehim";
+			print "Copyright © 2022 - "; echo date("Y");
 		?>
 	</p>
 	<!-- /wp:paragraph -->
