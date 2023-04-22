@@ -14,7 +14,8 @@ This theme is designed to fit the needs for fire brigades in Austria (Freiwillig
 ## How does it work
 
 Clone this repository into the wp-content/themes folder of you wordpress installation.
-There are placeholders in the code markes with `{CHANGE:*.}` *. for regex notation - represents some text that is added to show what the placeholder should be replaced with.
+There are placeholders in the code marked with `{CHANGE:.*}` (.* for regex notation) - represents some text that is added to show what the placeholder should be replaced with.
+Before selecting the Theme I would suggest you remove those placeholders (or markers) and put the correct information in place.
 For images I suggest to select the theme first and then just replace it with the visual editor (much simpler and the propper image can be uploaded simultaneously).
 Select the theme (wp-fire) - if not done before.
 

@@ -19,7 +19,7 @@
 				können Sie sich auch direkt beim<br>
 				diensthabenden Offizier (OvD) melden: <br>
 				<!-- {CHANGE:To your phone number with correct href} -->
-				<a href="tel:+43724242420,122">Tel: +43 7242 / 42420-122</a>
+				<a href="">Tel:</a>
 			</p>
 			<!-- /wp:paragraph -->
 			
@@ -39,8 +39,8 @@
 			
 			<!-- wp:paragraph -->
 			<p>
-				<!-- {CHANGE:google maps link and address} -->
-				<a href="https://goo.gl/maps/pzY4cafv16or5Yv29" style="text-decoration: none;" target="_blank" rel="noreferrer noopener">
+				<!-- {CHANGE:google maps link and address and adress} -->
+				<a href="" style="text-decoration: none;" target="_blank" rel="noreferrer noopener">
 					Freiwillige Feuerwehr Schleißheim<br>
 					Dorfstraße 14<br>
 					4600 Schleißheim<br>
@@ -55,6 +55,7 @@
 			<!-- wp:heading {"level":6} -->
 			<h6>Rechtliches</h6>
 			<!-- /wp:heading -->
+			<!-- {CHANGE:to correct href} -->
 			<!-- wp:paragraph -->
 			<p>
 				<a href="/impressum">Impressum</a> <br>
