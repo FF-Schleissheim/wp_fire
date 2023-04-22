@@ -24,4 +24,18 @@ Afterwards you can add those pages in the Navigation-block, that is located in t
 
 ## Working example
 
-[Wesbite FF Schleißheim](ff-schleissheim.at)
+[Wesbite FF Schleißheim](https://www.ff-schleissheim.at)
+
+## Fix/Workaround for mobile nav
+
+To ensure the mobile nav fits the theme and (if wanted) the nav-items are bigger than preset medium use the following code:
+
+```
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+	color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--base);
+	font-size: 1.35rem;
+}
+```
+
+this goes into the additional css section in the website-customizer.
